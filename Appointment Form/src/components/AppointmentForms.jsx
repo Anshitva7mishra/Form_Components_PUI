@@ -9,7 +9,7 @@ import {
   CheckCircle,
   AlertCircle,
   Sparkles,
-  ArrowRight,
+  User, 
 } from "lucide-react";
 import {
   format,
@@ -584,7 +584,8 @@ export default function AppointmentForm() {
                 <div className="flex items-center mb-8 space-x-4">
                   <div className="h-px bg-linear-to-r from-transparent via-slate-700 to-transparent flex-1" />
                   <h2 className="text-xl font-bold text-slate-100 uppercase tracking-wider flex items-center gap-2">
-                    <ArrowRight className="w-5 h-5 text-emerald-500" />
+                    {/* Changed ArrowRight to User icon here */}
+                    <User className="w-5 h-5 text-emerald-500" />
                     Your Details
                   </h2>
                   <div className="h-px bg-linear-to-r from-transparent via-slate-700 to-transparent flex-1" />
