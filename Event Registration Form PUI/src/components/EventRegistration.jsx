@@ -438,6 +438,7 @@ const TicketForm = ({
                     </span>
                   </div>
                 ))}
+                
                 {data.addons.length === 0 && (
                   <p className="text-xs text-slate-600 italic">
                     No add-ons selected
